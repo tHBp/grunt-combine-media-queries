@@ -342,7 +342,7 @@ module.exports = function(grunt) {
 
         // Write the new file
         grunt.file.write(destpath, strStyles);
-        grunt.log.ok('File ' + destpath + ' created.');
+        log('File ' + destpath + ' created.');
 
       });
 
